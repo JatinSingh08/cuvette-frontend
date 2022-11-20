@@ -13,7 +13,7 @@ const SyllabusAnalysis = () => {
             <div>
               <div>HTML Tools, Forms, History</div>
               <div>
-                <ProgressBar completed={80} bgColor='#438AF6' width='197px' height='15px' label/>
+                <ProgressBar completed={80} bgColor='#438AF6' width='197px' height='15px' isLabelVisible={false}/>
               </div>
               
             </div>
@@ -21,21 +21,21 @@ const SyllabusAnalysis = () => {
             <div className='mt-[68px]'>
               <div>Tags & References in HTML</div>
               <div>
-                <ProgressBar completed={60} bgColor='#FF9142' width='197px' height='15px'/>
+                <ProgressBar completed={60} bgColor='#FF9142' width='197px' height='15px' isLabelVisible={false}/>
               </div>
             </div>
 
             <div className='mt-[68px]'>
               <div>Tables & CSS Basics</div>
               <div>
-                <ProgressBar completed={24} bgColor='#FB5E5E' width='197px' height='15px'/>
+                <ProgressBar completed={24} bgColor='#FB5E5E' width='197px' height='15px' isLabelVisible={false}/>
               </div>
             </div>
 
             <div className='mt-[68px]'>
               <div>Tables & CSS Basics</div>
               <div>
-                <ProgressBar completed={96} bgColor='#2EC971' width='197px' height='15px'/>
+                <ProgressBar completed={96} bgColor='#2EC971' width='197px' height='15px' isLabelVisible={false}/>
               </div>
             </div>
         </div>
