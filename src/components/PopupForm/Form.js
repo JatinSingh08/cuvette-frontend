@@ -50,7 +50,7 @@ const Form = ({visible, onClose}) => {
   }
   if(!visible) return null;
   return (
-    <div className=' fixed inset-0 bg-opacity-30 bg-black backdrop-blur-lg flex justify-center items-center' onClick={handleOnClose} id='container'>
+    <div className=' fixed inset-0 bg-opacity-[0.7] bg-[#1e272e] backdrop-blur-lg flex justify-center items-center' onClick={handleOnClose} id='container'>
       <div className='border w-[880px] h-[521px] bg-white rounded-[10px] '>
 
         <div className='flex ml-[40px] mt-[40px] w-'>

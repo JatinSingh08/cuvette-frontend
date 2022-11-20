@@ -1,5 +1,6 @@
 import React from 'react'
 import piechart from './../../../assets/piechart.svg'
+import PieChart from '../../Graphs/PieChart'
 const QuestionsAnalysis = () => {
   return (
     <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[393px] ml-[267px] mt-[30px] flex text-left'>
@@ -22,8 +23,11 @@ const QuestionsAnalysis = () => {
                 <div className='text-[#438AF6]'>07 / 15</div>
               </div>
         </div>
-        <div className='w-[180px] h-[180px] mt-[49px] ml-[103px] mr-[103px]'>
-          <img src={piechart} alt="" />
+        <div className='w-[100px] h-[180px] mt-[49px] ml-[103px] mr-[203px] flex justify-start'>
+          <div>
+
+            {/* <PieChart /> */}
+          </div>
         </div>
       </div>
     </div>
