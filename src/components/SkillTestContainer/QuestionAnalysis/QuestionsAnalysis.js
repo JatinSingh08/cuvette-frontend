@@ -1,7 +1,9 @@
 import React from 'react'
 import piechart from './../../../assets/piechart.svg'
-import PieChart from '../../Graphs/PieChart'
-import Chart_Donught from '../../Graphs/PieChart'
+// import PieChart from '../../Graphs/PieChart'
+// import Chart_Donught from '../../Graphs/PieChart'
+// import piechart from './../../../assets/piechart.svg';
+
 const QuestionsAnalysis = () => {
   return (
     <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[393px] ml-[30px] mt-[30px] flex text-left'>
@@ -20,14 +22,14 @@ const QuestionsAnalysis = () => {
               </div>
 
           </div>
-              <div className='mt-[24px] mr-[30px] mb-[24px] w-[50px]'>
-                <div className='text-[#438AF6]'>07 / 15</div>
-              </div>
+              {/* <div className=' truncate'>
+                <div className='text-[#438AF6] mr-[100px] '>07 / 15</div>
+              </div> */}
         </div>
-        <div className='w-[100px] h-[180px] mt-[49px] ml-[103px] mr-[203px] flex justify-start'>
+        <div className='w-[180px] h-[166px] mt-[49px] ml-[103px] mr-[203px] flex justify-start'>
           <div>
 
-            <PieChart />
+            <img src={piechart} alt="" />
           </div>
         </div>
       </div>

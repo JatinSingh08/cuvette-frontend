@@ -32,7 +32,7 @@ const ComparisonGraph = () => {
         </div>
 
         <div className='ml-[30px] mt-[30px] mb-[30px]'>
-
+          <img src={graph} alt="" />
         </div>
 
       </div>
