@@ -1,21 +1,32 @@
-import React from 'react';
-import { Progress } from 'antd';
-const percent = (num) => {
-  const value = Number(( (num) / 15) * 100);
-  return value;
-}
-const App = () => (
+import DonoutChart from 'simple-react-donut-chart'
+import 'simple-react-donut-chart/src/style.css'
 
-  <>
-    <Progress type="circle" percent={percent} format={(percent) => `${percent} Days`} />
-    {/* <Progress
-      type="circle"
-      percent={100}
-      format={() => 'Done'}
-      style={{
-        marginLeft: 8,
-      }}
-    /> */}
-  </>
-);
-export default App;
+import React from 'react'
+
+const PieChart = () => {
+  return (
+      <DonoutChart
+    percentage={20}
+    colorOn="#438AF6"
+    colorOff="#ff0000"
+    labelOff="Me"
+    labelOn="You"
+    circleColor="#ffffff"
+    baseClass="customize"
+    textStyle={{
+        color: '#ff0000',
+    }}
+    labelStyle={{
+        off: {
+            fontSize: '16px',
+        },
+        on: {
+            fontSize: '18px',
+        },
+    }}
+/>
+
+  )
+}
+
+export default PieChart

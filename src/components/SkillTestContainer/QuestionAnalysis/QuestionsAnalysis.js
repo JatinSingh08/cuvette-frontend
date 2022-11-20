@@ -1,6 +1,7 @@
 import React from 'react'
 import piechart from './../../../assets/piechart.svg'
 import PieChart from '../../Graphs/PieChart'
+import Chart_Donught from '../../Graphs/PieChart'
 const QuestionsAnalysis = () => {
   return (
     <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[393px] ml-[267px] mt-[30px] flex text-left'>
@@ -26,7 +27,7 @@ const QuestionsAnalysis = () => {
         <div className='w-[100px] h-[180px] mt-[49px] ml-[103px] mr-[203px] flex justify-start'>
           <div>
 
-            {/* <PieChart /> */}
+            <PieChart />
           </div>
         </div>
       </div>
