@@ -2,7 +2,7 @@ import React from 'react'
 import ProgressBar from "@ramonak/react-progress-bar";
 const SyllabusAnalysis = () => {
   return (
-    <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[429px] ml-[30px] mt-[30px] flex text-left'>
+    <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[429px] ml-[30px] mt-[76px] flex text-left'>
       <div className='flex flex-col'>
 
         <div className=' h-[28px] mt-[30px] ml-[30px]'>
