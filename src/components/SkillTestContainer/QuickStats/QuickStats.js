@@ -9,7 +9,7 @@ const QuickStats = () => {
   const percentile = useGlobalState('percentile')
   const score = useGlobalState('score')
   return (
-    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[158px] ml-[267px] mt-[30px] flex text-left'>
+    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[158px] ml-[40px] mt-[30px] flex text-left'>
       
       <div className='ml-[1px]'>
 

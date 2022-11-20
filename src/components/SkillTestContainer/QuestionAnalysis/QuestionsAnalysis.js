@@ -4,7 +4,7 @@ import PieChart from '../../Graphs/PieChart'
 import Chart_Donught from '../../Graphs/PieChart'
 const QuestionsAnalysis = () => {
   return (
-    <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[393px] ml-[267px] mt-[30px] flex text-left'>
+    <div className='border-[1px] border-[#EBF0F5] rounded-[10px] w-[386px] h-[393px] ml-[30px] mt-[30px] flex text-left'>
       <div>
 
         <div className='flex'>

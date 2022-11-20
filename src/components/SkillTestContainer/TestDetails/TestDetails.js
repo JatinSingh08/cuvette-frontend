@@ -6,7 +6,7 @@ const TestDetails = () => {
   const [openForm, setOpenForm] = useState(false);
   const handleOnClose = () => setOpenForm(false);
   return (
-    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[109px] ml-[267px] mt-[76px] flex '>
+    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[109px] ml-[40px] mt-[76px] flex '>
       <img src={htmllogo} alt="" className='ml-[30px] w-[30px] '/>
       <div className='ml-[20px] mt-[31px] whitespace-nowrap text-left'>
         <div className="font-[700] ml-0 ">Hypertext Markup Language</div>

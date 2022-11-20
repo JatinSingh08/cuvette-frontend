@@ -9,13 +9,17 @@ import PieChart from '../Graphs/PieChart'
 
 const SkillTestCotainer = () => {
   return (
-    <div className=''>
-      <TestDetails/>
-      <QuickStats />
-      <ComparisonGraph />
-      <SyllabusAnalysis />
-      <QuestionsAnalysis />
-      {/* <PieChart /> */}
+    <div className='flex flex-row'>
+      <div className='ml-[px]'>
+        <TestDetails/>
+        <QuickStats />
+        <ComparisonGraph />
+      </div>
+      <div>
+        <SyllabusAnalysis />
+        <QuestionsAnalysis />
+      </div>
+
     </div>
   )
 }

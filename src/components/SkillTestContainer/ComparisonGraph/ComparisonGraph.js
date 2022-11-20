@@ -1,12 +1,12 @@
 import React from 'react'
 import graph from './../../../assets/graph.svg'
 import graphlogo from './../../../assets/graphlogo.svg'
-import { LineGraph } from 'react-line-graph'
+import LineGraph from 'react-line-graph'
 
 const ComparisonGraph = () => {
-  const data = [10,0,-2.5,540]; // LineGraph reads these as y-values, automatically spaces them out evenly
+  
   return (
-    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[525px] ml-[267px] mt-[30px] flex text-left'>
+    <div className=' border-[1px] border-[#EBF0F5] rounded-[10px] w-[717px] h-[525px] ml-[40px] mt-[30px] flex text-left'>
       
       <div >
 
@@ -22,7 +22,7 @@ const ComparisonGraph = () => {
 
             <div className='ml-[30px] mt-[20px] w-[432px] h-[42px]'>
               <div className='font-[400] text-[12px] text-[#566474] font-sans'><span className='font-[700]'>You scored 37% percentile </span>which is lower than the <br />
-              average percentile 72% of all the engineers who took this assessment</div>
+              average percentile 72% of all the engineers who took this assessment.</div>
             </div>
           </div>
 
@@ -32,9 +32,7 @@ const ComparisonGraph = () => {
         </div>
 
         <div className='ml-[30px] mt-[30px] mb-[30px]'>
-       
-          {/* <LineGraph data={data}/> */}
-          
+
         </div>
 
       </div>
